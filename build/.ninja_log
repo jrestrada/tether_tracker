@@ -1,23 +1,7 @@
 # ninja log v5
 3	2482	1679949813903941447	CMakeFiles/tether_tracker.dir/src/ImageProcessor.cpp.o	ad59cc8cc325189b
 0	31	1679603102113530891	CMakeFiles/tether_tracker.dir/src/tether_tracker_node.cpp.o	b2f81c0058e2d733
-2	10676	1679949983891986710	CMakeFiles/tether_tracker.dir/src/Ros.cpp.o	76077fe3f00be2cd
-2	5068	1679949886718245253	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-10676	11562	1679949984787965910	tether_tracker	1a8a6c09a2c7cdce
-3	2515	1679950506435906804	CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o	c3720b6c2d996771
-2	10770	1679950537991179621	CMakeFiles/tether_tracker.dir/src/Ros.cpp.o	76077fe3f00be2cd
-3	4406	1679950588718010999	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-4406	5167	1679950589473993586	tether_tracker	21a4ed6dabf6033c
-2	10646	1679950837924275140	CMakeFiles/tether_tracker.dir/src/Ros.cpp.o	76077fe3f00be2cd
-10646	11444	1679950838732256555	tether_tracker	21a4ed6dabf6033c
-2	4556	1679951053195325384	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-2	4550	1679951095830345466	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-3	10638	1679951101906205829	CMakeFiles/tether_tracker.dir/src/Ros.cpp.o	76077fe3f00be2cd
-10638	11382	1679951102654188638	tether_tracker	21a4ed6dabf6033c
-3	4741	1679951120209785180	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-3	10538	1679951125997652168	CMakeFiles/tether_tracker.dir/src/Ros.cpp.o	76077fe3f00be2cd
-10539	11292	1679951126753634795	tether_tracker	21a4ed6dabf6033c
-3	4608	1679951223359414968	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-3	4646	1679951282966045533	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
 3	10677	1679951288981907329	CMakeFiles/tether_tracker.dir/src/Ros.cpp.o	76077fe3f00be2cd
+3	4646	1679951282966045533	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
 10677	11446	1679951289757889501	tether_tracker	21a4ed6dabf6033c
+3	2515	1679950506435906804	CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o	c3720b6c2d996771
