@@ -46,7 +46,7 @@ void TetherTracker::processImage(const cv::Mat& image_in){
     cv::Mat hsv;
     cv::cvtColor(image_in, hsv, cv::COLOR_BGR2HSV);
     // Define region of interest
-    cv::Rect roi_rect(60, 100, 190, 30); // x, y, width, height
+    cv::Rect roi_rect(60, 70, 190, 30); // x, y, width, height
     cv::Rect rect_out(roi_rect.x, roi_rect.y, roi_rect.width, roi_rect.height/2); // x, y, width, height
     cv::Rect rect_in(roi_rect.x, roi_rect.y + roi_rect.height/2, roi_rect.width, roi_rect.height/2); // x, y, width, height
     // Set threshold from trackbars

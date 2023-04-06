@@ -32,8 +32,8 @@ ament_target_dependencies(${PROJECT_NAME}
   rclcpp 
   std_msgs 
   cv_bridge 
-  std_msgs
-  sensor_msgs)
+  sensor_msgs
+)
 
 install(TARGETS ${PROJECT_NAME}
 DESTINATION lib/${PROJECT_NAME})

@@ -8,7 +8,6 @@
 #include <std_msgs/msg/int16.hpp>
 #include "TetherTracker.h"
 
-
 #define LOG(...) RCLCPP_INFO(rclcpp::get_logger("image_subscriber"), __VA_ARGS__)
 
 class Ros {

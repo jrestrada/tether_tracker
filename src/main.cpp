@@ -8,7 +8,7 @@ const std::string window = "tracker_test";
 #define KEY_ESC 27
 
 int g_lh = 75, g_ls = 50, g_lv = 100; // Lower color values
-int g_uh = 111, g_us = 119, g_uv = 200; // Upper color values
+int g_uh = 108, g_us = 119, g_uv = 200; // Upper color values
 
 void addTrackbars(std::string) {
     // Creating trackbars
@@ -24,7 +24,7 @@ int main(int argc, char ** argv)
 {
     Ros ros(argc, argv, "tether_tracker_node");
     TetherTracker * tracker = new TetherTracker(window);
-    // addTrackbars(window);
+    addTrackbars(window);
     tracker->setThresholds(&g_lh,&g_ls,&g_lv,&g_uh,&g_us,&g_uv);
     ros.setTetherTracker(tracker);
     ros.spin();
