@@ -1,21 +1,7 @@
 # ninja log v5
 3	2482	1679949813903941447	CMakeFiles/tether_tracker.dir/src/ImageProcessor.cpp.o	ad59cc8cc325189b
 0	31	1679603102113530891	CMakeFiles/tether_tracker.dir/src/tether_tracker_node.cpp.o	b2f81c0058e2d733
-3	10677	1679951288981907329	CMakeFiles/tether_tracker.dir/src/Ros.cpp.o	76077fe3f00be2cd
-3	4646	1679951282966045533	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-10677	11446	1679951289757889501	tether_tracker	21a4ed6dabf6033c
-3	2515	1679950506435906804	CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o	c3720b6c2d996771
-2	4730	1680811600203498023	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-2	11234	1680811606695407399	CMakeFiles/tether_tracker.dir/src/Ros.cpp.o	76077fe3f00be2cd
-11234	12033	1680811607499396177	tether_tracker	21a4ed6dabf6033c
-2	2437	1680811710509959503	CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o	c3720b6c2d996771
-2437	3208	1680811711277948800	tether_tracker	21a4ed6dabf6033c
-2	2472	1680811725753747089	CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o	c3720b6c2d996771
-2472	3284	1680811726565735776	tether_tracker	21a4ed6dabf6033c
-2	2409	1680811761969242622	CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o	c3720b6c2d996771
-2409	3189	1680811762749231760	tether_tracker	21a4ed6dabf6033c
-2	4482	1680811786304903770	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-4482	5242	1680811787060893246	tether_tracker	21a4ed6dabf6033c
-3	2567	1680811925622965702	CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o	c3720b6c2d996771
-3	4571	1680811927626937844	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
-4572	5415	1680811928466926168	tether_tracker	21a4ed6dabf6033c
+3	10703	1680815165582516092	CMakeFiles/tether_tracker.dir/src/Ros.cpp.o	76077fe3f00be2cd
+2	4359	1682459095958992210	CMakeFiles/tether_tracker.dir/src/main.cpp.o	ff0646792b8971f3
+4359	5119	1682459096714981464	tether_tracker	21a4ed6dabf6033c
+2	2494	1682458652493302904	CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o	c3720b6c2d996771

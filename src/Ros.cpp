@@ -58,6 +58,8 @@ void Ros::imageCallback(const sensor_msgs::msg::Image::SharedPtr msg){
         rclcpp::shutdown(); 
     }
     m_TetherTracker->processImage(cv_bridge::toCvShare(msg, "bgr8")->image);
-    m_feet_deployed.data = m_TetherTracker->getCount();
-    m_publisher->publish(m_feet_deployed);
+    if (m_feet_deployed.data != m_TetherTracker->getCount()){
+        m_feet_deployed.data = m_TetherTracker->getCount();
+        m_publisher->publish(m_feet_deployed);
+    }
 }
