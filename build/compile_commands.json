@@ -1,17 +1,19 @@
 [
 {
   "directory": "/home/josue/ros2_ws/src/tether_tracker/build",
-  "command": "/usr/bin/g++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/josue/ros2_ws/src/tether_tracker/include -isystem /opt/ros/galactic/include -isystem /usr/include/opencv4 -g -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/tether_tracker.dir/src/main.cpp.o -c /home/josue/ros2_ws/src/tether_tracker/src/main.cpp",
+  "command": "/usr/bin/g++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I../include -isystem /opt/ros/galactic/include -isystem /usr/include/opencv4  -g   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/tether_tracker.dir/src/main.cpp.o -c /home/josue/ros2_ws/src/tether_tracker/src/main.cpp",
   "file": "/home/josue/ros2_ws/src/tether_tracker/src/main.cpp"
 },
+
 {
   "directory": "/home/josue/ros2_ws/src/tether_tracker/build",
-  "command": "/usr/bin/g++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/josue/ros2_ws/src/tether_tracker/include -isystem /opt/ros/galactic/include -isystem /usr/include/opencv4 -g -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/tether_tracker.dir/src/Ros.cpp.o -c /home/josue/ros2_ws/src/tether_tracker/src/Ros.cpp",
+  "command": "/usr/bin/g++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I../include -isystem /opt/ros/galactic/include -isystem /usr/include/opencv4  -g   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/tether_tracker.dir/src/Ros.cpp.o -c /home/josue/ros2_ws/src/tether_tracker/src/Ros.cpp",
   "file": "/home/josue/ros2_ws/src/tether_tracker/src/Ros.cpp"
 },
+
 {
   "directory": "/home/josue/ros2_ws/src/tether_tracker/build",
-  "command": "/usr/bin/g++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/josue/ros2_ws/src/tether_tracker/include -isystem /opt/ros/galactic/include -isystem /usr/include/opencv4 -g -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o -c /home/josue/ros2_ws/src/tether_tracker/src/TetherTracker.cpp",
+  "command": "/usr/bin/g++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I../include -isystem /opt/ros/galactic/include -isystem /usr/include/opencv4  -g   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/tether_tracker.dir/src/TetherTracker.cpp.o -c /home/josue/ros2_ws/src/tether_tracker/src/TetherTracker.cpp",
   "file": "/home/josue/ros2_ws/src/tether_tracker/src/TetherTracker.cpp"
 }
 ]

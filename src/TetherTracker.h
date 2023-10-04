@@ -8,6 +8,7 @@ class TetherTracker{
     TetherTracker();
     TetherTracker(std::string window);
     void setThresholds(int *g_lh, int *g_ls, int *g_lv, int *g_uh, int *g_us, int *g_uv);
+    void setRoi(int *x, int *y, int *w, int *h);
     void processImage(const cv::Mat& image_in);
     int getCount(){ return m_count;};
     private:
@@ -21,6 +22,10 @@ class TetherTracker{
     int * m_uh = 0;
     int * m_us = 0;
     int * m_uv = 0; 
+    int * m_x = 0;
+    int * m_y = 0;
+    int * m_w = 0;
+    int * m_h = 0;
     bool m_point_out = false;
     bool m_point_in = false;
     int m_count = 0;
